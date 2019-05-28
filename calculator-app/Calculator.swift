@@ -11,14 +11,10 @@ import Foundation
 class Calculator {
     var valuePrimary: Int = 0
     var valueSecondary: Int = 0
+    var valueOnDisplay: String = "0"
     
-    
-    func defineValuePrimary(value: String) -> Int {
-        return 0
-    }
-    
-    func defineValueSecondary(value: String) -> Int {
-        return 0
+    func doCalc(setVal valueA: String, setValB valueB: String, setOperator operator: Operators) -> String {
+        return "Resultado"
     }
 }
 
